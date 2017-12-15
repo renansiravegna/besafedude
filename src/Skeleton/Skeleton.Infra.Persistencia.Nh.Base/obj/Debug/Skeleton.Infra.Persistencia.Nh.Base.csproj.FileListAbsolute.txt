@@ -11,3 +11,17 @@ D:\Projetos\Skeleton\Skeleton.Infra.Persistencia.Nh.Base\obj\Debug\Skeleton.Infr
 D:\Projetos\Skeleton\Skeleton.Infra.Persistencia.Nh.Base\obj\Debug\Skeleton.Infra.Persistencia.Nh.Base.pdb
 D:\Projetos\Skeleton\Skeleton.Infra.Persistencia.Nh.Base\bin\Debug\Skeleton.Dominio.dll
 D:\Projetos\Skeleton\Skeleton.Infra.Persistencia.Nh.Base\bin\Debug\Skeleton.Dominio.pdb
+C:\Users\rafaelteixeira\projetos\besafedude\src\Skeleton\Skeleton.Infra.Persistencia.Nh.Base\bin\Debug\Skeleton.Infra.Persistencia.Nh.Base.dll
+C:\Users\rafaelteixeira\projetos\besafedude\src\Skeleton\Skeleton.Infra.Persistencia.Nh.Base\bin\Debug\Skeleton.Infra.Persistencia.Nh.Base.pdb
+C:\Users\rafaelteixeira\projetos\besafedude\src\Skeleton\Skeleton.Infra.Persistencia.Nh.Base\bin\Debug\FluentNHibernate.dll
+C:\Users\rafaelteixeira\projetos\besafedude\src\Skeleton\Skeleton.Infra.Persistencia.Nh.Base\bin\Debug\NHibernate.dll
+C:\Users\rafaelteixeira\projetos\besafedude\src\Skeleton\Skeleton.Infra.Persistencia.Nh.Base\bin\Debug\Skeleton.Dominio.Base.dll
+C:\Users\rafaelteixeira\projetos\besafedude\src\Skeleton\Skeleton.Infra.Persistencia.Nh.Base\bin\Debug\Skeleton.Dominio.dll
+C:\Users\rafaelteixeira\projetos\besafedude\src\Skeleton\Skeleton.Infra.Persistencia.Nh.Base\bin\Debug\Skeleton.Dominio.Base.pdb
+C:\Users\rafaelteixeira\projetos\besafedude\src\Skeleton\Skeleton.Infra.Persistencia.Nh.Base\bin\Debug\Skeleton.Dominio.pdb
+C:\Users\rafaelteixeira\projetos\besafedude\src\Skeleton\Skeleton.Infra.Persistencia.Nh.Base\bin\Debug\FluentNHibernate.xml
+C:\Users\rafaelteixeira\projetos\besafedude\src\Skeleton\Skeleton.Infra.Persistencia.Nh.Base\bin\Debug\NHibernate.xml
+C:\Users\rafaelteixeira\projetos\besafedude\src\Skeleton\Skeleton.Infra.Persistencia.Nh.Base\obj\Debug\Skeleton.Infra.Persistencia.Nh.Base.csprojResolveAssemblyReference.cache
+C:\Users\rafaelteixeira\projetos\besafedude\src\Skeleton\Skeleton.Infra.Persistencia.Nh.Base\obj\Debug\Skeleton.Infra.Persistencia.Nh.Base.csproj.CoreCompileInputs.cache
+C:\Users\rafaelteixeira\projetos\besafedude\src\Skeleton\Skeleton.Infra.Persistencia.Nh.Base\obj\Debug\Skeleton.Infra.Persistencia.Nh.Base.dll
+C:\Users\rafaelteixeira\projetos\besafedude\src\Skeleton\Skeleton.Infra.Persistencia.Nh.Base\obj\Debug\Skeleton.Infra.Persistencia.Nh.Base.pdb

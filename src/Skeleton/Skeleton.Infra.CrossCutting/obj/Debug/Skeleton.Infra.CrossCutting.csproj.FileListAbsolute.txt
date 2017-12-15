@@ -8,3 +8,14 @@ D:\Projetos\Skeleton\Skeleton.Infra.CrossCutting\bin\Debug\Ninject.pdb
 D:\Projetos\Skeleton\Skeleton.Infra.CrossCutting\bin\Debug\Ninject.xml
 D:\Projetos\Skeleton\Skeleton.Infra.CrossCutting\obj\Debug\Skeleton.Infra.CrossCutting.dll
 D:\Projetos\Skeleton\Skeleton.Infra.CrossCutting\obj\Debug\Skeleton.Infra.CrossCutting.pdb
+C:\Users\rafaelteixeira\projetos\besafedude\src\Skeleton\Skeleton.Infra.CrossCutting\bin\Debug\Skeleton.Infra.CrossCutting.dll
+C:\Users\rafaelteixeira\projetos\besafedude\src\Skeleton\Skeleton.Infra.CrossCutting\bin\Debug\Skeleton.Infra.CrossCutting.pdb
+C:\Users\rafaelteixeira\projetos\besafedude\src\Skeleton\Skeleton.Infra.CrossCutting\bin\Debug\Ninject.dll
+C:\Users\rafaelteixeira\projetos\besafedude\src\Skeleton\Skeleton.Infra.CrossCutting\bin\Debug\Skeleton.Infra.CrossCutting.Base.dll
+C:\Users\rafaelteixeira\projetos\besafedude\src\Skeleton\Skeleton.Infra.CrossCutting\bin\Debug\Skeleton.Infra.CrossCutting.Base.pdb
+C:\Users\rafaelteixeira\projetos\besafedude\src\Skeleton\Skeleton.Infra.CrossCutting\bin\Debug\Ninject.pdb
+C:\Users\rafaelteixeira\projetos\besafedude\src\Skeleton\Skeleton.Infra.CrossCutting\bin\Debug\Ninject.xml
+C:\Users\rafaelteixeira\projetos\besafedude\src\Skeleton\Skeleton.Infra.CrossCutting\obj\Debug\Skeleton.Infra.CrossCutting.csprojResolveAssemblyReference.cache
+C:\Users\rafaelteixeira\projetos\besafedude\src\Skeleton\Skeleton.Infra.CrossCutting\obj\Debug\Skeleton.Infra.CrossCutting.csproj.CoreCompileInputs.cache
+C:\Users\rafaelteixeira\projetos\besafedude\src\Skeleton\Skeleton.Infra.CrossCutting\obj\Debug\Skeleton.Infra.CrossCutting.dll
+C:\Users\rafaelteixeira\projetos\besafedude\src\Skeleton\Skeleton.Infra.CrossCutting\obj\Debug\Skeleton.Infra.CrossCutting.pdb
