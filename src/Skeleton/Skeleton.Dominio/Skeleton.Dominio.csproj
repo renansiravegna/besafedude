@@ -36,6 +36,7 @@
   <ItemGroup>
     <Compile Include="Relato.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TipoDeRelato.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Skeleton.Dominio.Base\Skeleton.Dominio.Base.csproj">

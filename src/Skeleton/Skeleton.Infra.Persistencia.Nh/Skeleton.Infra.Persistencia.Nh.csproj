@@ -42,13 +42,11 @@
   <ItemGroup>
     <Compile Include="Mapeamentos\RelatoMap.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Repositorios\Relatos.cs" />
     <Compile Include="SessionFactory\ConfiguradorDeSessionFactory.cs" />
     <Compile Include="SessionFactory\ConfiguradorDeSessionFactoryComAtualizacaoDeEsquema.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Repositorios\Dominio\" />
-    <Folder Include="Repositorios\Relatorio\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <ProjectReference Include="..\Skeleton.Dominio.Base\Skeleton.Dominio.Base.csproj">
       <Project>{26B00BDD-853C-4691-9A3C-69898C4241FA}</Project>

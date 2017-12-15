@@ -204,6 +204,23 @@
   <ItemGroup>
     <Content Include="Scripts\jquery-1.10.2.min.map" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Skeleton.Dominio\Skeleton.Dominio.csproj">
+      <Project>{67e747d4-112f-4723-a677-7fbe88141d2a}</Project>
+      <Name>Skeleton.Dominio</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Skeleton.Infra.Persistencia.Nh.Base\Skeleton.Infra.Persistencia.Nh.Base.csproj">
+      <Project>{9cba01c1-a6dc-4bf0-9fe2-3f211f241621}</Project>
+      <Name>Skeleton.Infra.Persistencia.Nh.Base</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Skeleton.Infra.Persistencia.Nh\Skeleton.Infra.Persistencia.Nh.csproj">
+      <Project>{AA549BAA-503F-4099-86BC-CA8622052FA9}</Project>
+      <Name>Skeleton.Infra.Persistencia.Nh</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Connected Services\" />
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>

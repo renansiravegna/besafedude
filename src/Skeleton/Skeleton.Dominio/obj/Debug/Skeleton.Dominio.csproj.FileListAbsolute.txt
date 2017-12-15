@@ -13,3 +13,10 @@ C:\Users\rafaelteixeira\projetos\besafedude\src\Skeleton\Skeleton.Dominio\obj\De
 C:\Users\rafaelteixeira\projetos\besafedude\src\Skeleton\Skeleton.Dominio\obj\Debug\Skeleton.Dominio.csproj.CoreCompileInputs.cache
 C:\Users\rafaelteixeira\projetos\besafedude\src\Skeleton\Skeleton.Dominio\obj\Debug\Skeleton.Dominio.dll
 C:\Users\rafaelteixeira\projetos\besafedude\src\Skeleton\Skeleton.Dominio\obj\Debug\Skeleton.Dominio.pdb
+D:\Projetos\Hackthon2017\besafedude\src\Skeleton\Skeleton.Dominio\bin\Debug\Skeleton.Dominio.dll
+D:\Projetos\Hackthon2017\besafedude\src\Skeleton\Skeleton.Dominio\bin\Debug\Skeleton.Dominio.pdb
+D:\Projetos\Hackthon2017\besafedude\src\Skeleton\Skeleton.Dominio\bin\Debug\Skeleton.Dominio.Base.dll
+D:\Projetos\Hackthon2017\besafedude\src\Skeleton\Skeleton.Dominio\bin\Debug\Skeleton.Dominio.Base.pdb
+D:\Projetos\Hackthon2017\besafedude\src\Skeleton\Skeleton.Dominio\obj\Debug\Skeleton.Dominio.csprojResolveAssemblyReference.cache
+D:\Projetos\Hackthon2017\besafedude\src\Skeleton\Skeleton.Dominio\obj\Debug\Skeleton.Dominio.dll
+D:\Projetos\Hackthon2017\besafedude\src\Skeleton\Skeleton.Dominio\obj\Debug\Skeleton.Dominio.pdb
