@@ -1,0 +1,7 @@
+D:\Projetos\Skeleton\Skeleton.Dominio\bin\Debug\Skeleton.Dominio.dll
+D:\Projetos\Skeleton\Skeleton.Dominio\bin\Debug\Skeleton.Dominio.pdb
+D:\Projetos\Skeleton\Skeleton.Dominio\bin\Debug\Skeleton.Dominio.Base.dll
+D:\Projetos\Skeleton\Skeleton.Dominio\bin\Debug\Skeleton.Dominio.Base.pdb
+D:\Projetos\Skeleton\Skeleton.Dominio\obj\Debug\Skeleton.Dominio.csprojResolveAssemblyReference.cache
+D:\Projetos\Skeleton\Skeleton.Dominio\obj\Debug\Skeleton.Dominio.dll
+D:\Projetos\Skeleton\Skeleton.Dominio\obj\Debug\Skeleton.Dominio.pdb

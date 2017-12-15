@@ -1,0 +1,15 @@
+D:\Projetos\Skeleton\Skeleton.Infra.Persistencia.Nh\bin\Debug\Skeleton.Infra.Persistencia.Nh.dll
+D:\Projetos\Skeleton\Skeleton.Infra.Persistencia.Nh\bin\Debug\Skeleton.Infra.Persistencia.Nh.pdb
+D:\Projetos\Skeleton\Skeleton.Infra.Persistencia.Nh\bin\Debug\FluentNHibernate.dll
+D:\Projetos\Skeleton\Skeleton.Infra.Persistencia.Nh\bin\Debug\NHibernate.dll
+D:\Projetos\Skeleton\Skeleton.Infra.Persistencia.Nh\bin\Debug\Skeleton.Infra.Persistencia.Nh.Base.dll
+D:\Projetos\Skeleton\Skeleton.Infra.Persistencia.Nh\bin\Debug\Skeleton.Dominio.Base.dll
+D:\Projetos\Skeleton\Skeleton.Infra.Persistencia.Nh\bin\Debug\Skeleton.Infra.Persistencia.Nh.Base.pdb
+D:\Projetos\Skeleton\Skeleton.Infra.Persistencia.Nh\bin\Debug\FluentNHibernate.xml
+D:\Projetos\Skeleton\Skeleton.Infra.Persistencia.Nh\bin\Debug\NHibernate.xml
+D:\Projetos\Skeleton\Skeleton.Infra.Persistencia.Nh\bin\Debug\Skeleton.Dominio.Base.pdb
+D:\Projetos\Skeleton\Skeleton.Infra.Persistencia.Nh\obj\Debug\Skeleton.Infra.Persistencia.Nh.csprojResolveAssemblyReference.cache
+D:\Projetos\Skeleton\Skeleton.Infra.Persistencia.Nh\obj\Debug\Skeleton.Infra.Persistencia.Nh.dll
+D:\Projetos\Skeleton\Skeleton.Infra.Persistencia.Nh\obj\Debug\Skeleton.Infra.Persistencia.Nh.pdb
+D:\Projetos\Skeleton\Skeleton.Infra.Persistencia.Nh\bin\Debug\Skeleton.Dominio.dll
+D:\Projetos\Skeleton\Skeleton.Infra.Persistencia.Nh\bin\Debug\Skeleton.Dominio.pdb

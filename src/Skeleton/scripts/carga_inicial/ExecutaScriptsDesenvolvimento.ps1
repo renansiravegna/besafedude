@@ -1,0 +1,1 @@
+Get-ChildItem 'D:\Projetos\Skeleton\scripts\carga_inicial' -recurse -i *.sql | foreach ($_) {sqlcmd -S '(local)' -d controledesubsidios -i $_.fullname}

@@ -1,0 +1,10 @@
+D:\Projetos\Skeleton\Skeleton.Infra.CrossCutting\obj\Debug\Skeleton.Infra.CrossCutting.csprojResolveAssemblyReference.cache
+D:\Projetos\Skeleton\Skeleton.Infra.CrossCutting\bin\Debug\Skeleton.Infra.CrossCutting.dll
+D:\Projetos\Skeleton\Skeleton.Infra.CrossCutting\bin\Debug\Skeleton.Infra.CrossCutting.pdb
+D:\Projetos\Skeleton\Skeleton.Infra.CrossCutting\bin\Debug\Ninject.dll
+D:\Projetos\Skeleton\Skeleton.Infra.CrossCutting\bin\Debug\Skeleton.Infra.CrossCutting.Base.dll
+D:\Projetos\Skeleton\Skeleton.Infra.CrossCutting\bin\Debug\Skeleton.Infra.CrossCutting.Base.pdb
+D:\Projetos\Skeleton\Skeleton.Infra.CrossCutting\bin\Debug\Ninject.pdb
+D:\Projetos\Skeleton\Skeleton.Infra.CrossCutting\bin\Debug\Ninject.xml
+D:\Projetos\Skeleton\Skeleton.Infra.CrossCutting\obj\Debug\Skeleton.Infra.CrossCutting.dll
+D:\Projetos\Skeleton\Skeleton.Infra.CrossCutting\obj\Debug\Skeleton.Infra.CrossCutting.pdb
