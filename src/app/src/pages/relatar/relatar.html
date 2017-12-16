@@ -11,7 +11,7 @@
   <ion-grid>
     <ion-row>
       <ion-col col-6 *ngFor="let categoria of categorias" (click)=iniciarRelato(categoria)>
-        <ion-card class="categoria">
+        <ion-card class="categoria" color="primary">
           <ion-card-content>
             <ion-icon class="icone" name="{{ categoria.icone }}"></ion-icon>
             <span>{{ categoria.nome }}</span>

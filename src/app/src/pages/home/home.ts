@@ -98,7 +98,7 @@ export class HomePage {
           próximo à você, considere mudar de rota ou siga com cautela
       `,
       duration: 7000,
-      position: 'bottom'
+      position: 'top'
     }).present();
   }
 

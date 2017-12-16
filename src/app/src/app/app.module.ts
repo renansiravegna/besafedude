@@ -7,6 +7,8 @@ import { MyApp } from './app.component';
 import { HomePage } from '../pages/home/home';
 import { RelatarPage } from '../pages/relatar/relatar';
 import { DetalharRelatoPage } from '../pages/detalhar-relato/detalhar-relato';
+import { UsuarioPage } from '../pages/usuario/usuario';
+import { TabsPage } from '../pages/tabs/tabs';
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
@@ -18,7 +20,9 @@ import { RelatosService } from '../services/relatos.service';
     MyApp,
     HomePage,
     RelatarPage,
-    DetalharRelatoPage
+    DetalharRelatoPage,
+    UsuarioPage,
+    TabsPage
   ],
   imports: [
     BrowserModule,
@@ -30,7 +34,9 @@ import { RelatosService } from '../services/relatos.service';
     MyApp,
     HomePage,
     RelatarPage,
-    DetalharRelatoPage
+    DetalharRelatoPage,
+    UsuarioPage,
+    TabsPage
   ],
   providers: [
     StatusBar,
