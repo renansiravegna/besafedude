@@ -1,9 +1,6 @@
 namespace Api.Migrations
 {
-    using System;
-    using System.Data.Entity;
     using System.Data.Entity.Migrations;
-    using System.Linq;
 
     internal sealed class Configuration : DbMigrationsConfiguration<Api.Models.EntityFrameworkContext.EntityFrameworkContext>
     {
@@ -14,6 +11,7 @@ namespace Api.Migrations
 
         protected override void Seed(Api.Models.EntityFrameworkContext.EntityFrameworkContext context)
         {
+            context.Database.CreateIfNotExists();
             //  This method will be called after migrating to the latest version.
 
             //  You can use the DbSet<T>.AddOrUpdate() helper extension method 

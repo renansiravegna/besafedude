@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="EntityFrameworkContext-Web.config Connection String" description="EntityFrameworkContext Connection String used in web.config by the application to access the database." defaultValue="Data Source=192.168.0.4;Initial Catalog=besafedude; User ID=domus;Password=d0mu5!" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Hackthon2017\\besafedude\\src\\Api\\Api\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='EntityFrameworkContext']/@connectionString" />
+  </parameter>
+  <parameter name="EntityFrameworkContext_DatabasePublish-Web.config Connection String" description="EntityFrameworkContext_DatabasePublish Connection String used in web.config by the application to access the database." defaultValue="EntityFrameworkContext_DatabasePublish.ConnetionString" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Hackthon2017\\besafedude\\src\\Api\\Api\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='EntityFrameworkContext_DatabasePublish']/@connectionString" />
+  </parameter>
+</parameters>

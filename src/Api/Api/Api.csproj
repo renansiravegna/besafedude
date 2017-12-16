@@ -102,6 +102,8 @@
     <Content Include="Global.asax" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
+    <None Include="Properties\PublishProfiles\CustomProfile.pubxml" />
+    <None Include="Properties\PublishProfiles\CustomProfile1.pubxml" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
     <Content Include="Scripts\jquery-1.10.2.min.js" />
@@ -122,7 +124,16 @@
     <Compile Include="Migrations\201712152326449_AlterTableRelato.Designer.cs">
       <DependentUpon>201712152326449_AlterTableRelato.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201712160230431_CriaBancoSeNaoExiste.cs" />
+    <Compile Include="Migrations\201712160230431_CriaBancoSeNaoExiste.Designer.cs">
+      <DependentUpon>201712160230431_CriaBancoSeNaoExiste.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201712160400494_InserirDataNoRelato.cs" />
+    <Compile Include="Migrations\201712160400494_InserirDataNoRelato.Designer.cs">
+      <DependentUpon>201712160400494_InserirDataNoRelato.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
+    <Compile Include="Models\DAO\Relatos.cs" />
     <Compile Include="Models\Dominio\Relato.cs" />
     <Compile Include="Models\EntityFrameworkContext\EntityFrameworkContext.cs" />
     <Compile Include="Models\Enum\TipoDeRelato.cs" />
@@ -155,6 +166,12 @@
     <EmbeddedResource Include="Migrations\201712152326449_AlterTableRelato.resx">
       <DependentUpon>201712152326449_AlterTableRelato.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201712160230431_CriaBancoSeNaoExiste.resx">
+      <DependentUpon>201712160230431_CriaBancoSeNaoExiste.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201712160400494_InserirDataNoRelato.resx">
+      <DependentUpon>201712160400494_InserirDataNoRelato.cs</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
@@ -172,6 +189,8 @@
           <DevelopmentServerPort>62718</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
           <IISUrl>http://localhost:62718/</IISUrl>
+          <OverrideIISAppRootUrl>True</OverrideIISAppRootUrl>
+          <IISAppRootUrl>http://localhost:62718/</IISAppRootUrl>
           <NTLMAuthentication>False</NTLMAuthentication>
           <UseCustomServer>False</UseCustomServer>
           <CustomServerUrl>

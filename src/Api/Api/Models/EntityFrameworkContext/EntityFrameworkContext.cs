@@ -5,6 +5,6 @@ namespace Api.Models.EntityFrameworkContext
 {
     public class EntityFrameworkContext : DbContext
     {
-        private DbSet<Relato> Relatos { get; set; }
+        public DbSet<Relato> Relatos { get; set; }
     }
 }
