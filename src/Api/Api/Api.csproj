@@ -97,6 +97,11 @@
   <ItemGroup>
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\images\car.png" />
+    <Content Include="Content\images\cash.png" />
+    <Content Include="Content\images\flame.png" />
+    <Content Include="Content\javascript\googlemaps.js" />
+    <Content Include="Content\javascript\index.js" />
     <Content Include="Content\Site.css" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
@@ -135,8 +140,10 @@
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\DAO\Relatos.cs" />
     <Compile Include="Models\Dominio\Relato.cs" />
+    <Compile Include="Models\Dto\RelatoPeriodoMensalDto.cs" />
     <Compile Include="Models\EntityFrameworkContext\EntityFrameworkContext.cs" />
     <Compile Include="Models\Enum\TipoDeRelato.cs" />
+    <Compile Include="Models\Utilitarios\GeradorDeLinkDeGoogleMaps.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -149,6 +156,7 @@
     <Content Include="Views\Shared\_Layout.cshtml" />
     <Content Include="Views\Relato\Index.cshtml" />
     <Content Include="Scripts\jquery-1.10.2.min.map" />
+    <Content Include="Views\Relato\_UltimosAcontecimentos.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
