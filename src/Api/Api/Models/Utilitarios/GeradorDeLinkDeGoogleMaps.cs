@@ -6,9 +6,15 @@
         public static string Coordenadas(string latitude, string longitude)
         {
             var latitudes = latitude.Split('.');
-            latitude = $"{latitudes[0]}.{latitudes[1]}{latitudes[2]}";
             var longitudes = longitude.Split('.');
-            longitude = $"{longitudes[0]}.{longitudes[1]}{longitudes[2]}";
+            if (latitudes.Length == 2)
+            {
+                latitude = $"{latitudes[0]}.{latitudes[1]}";
+                longitude = $"{longitudes[0]}.{longitudes[1]}";
+                return $"{Link}{latitude},{longitude}";
+            }   
+            latitude = $"{latitudes[0]}.{latitudes[1]}{latitudes[2]}";
+            longitude = $"{longitudes[0]}.{longitudes[1]}{latitudes[2]}";
             return $"{Link}{latitude},{longitude}";
         }
     }

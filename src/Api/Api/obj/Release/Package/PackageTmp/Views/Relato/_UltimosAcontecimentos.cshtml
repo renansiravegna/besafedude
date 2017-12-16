@@ -3,31 +3,33 @@
 @{
     Layout = null;
 }
-<table class="table table-condensed">
-    <thead>
-    <tr>
-        <th></th>
-        <th class="text-center">Tipo de relato</th>
-        <th>Periodo</th>
-        <th>Descrição</th>
-    </tr>
-    </thead>
-    <tbody>
-    @foreach (var item in Model)
-    {
-        <tr class="@item.TipoDeRelato">
-            <td class="text-center">
-                <a target="_blank" href="@GeradorDeLinkDeGoogleMaps.Coordenadas(item.Latitude, item.Longitude)">
-                    <i class="glyphicon glyphicon-map-marker"></i>
-                </a>
-            </td>
-            <td class="text-center">@item.TipoDeRelato</td>
-            <td class="dataFormatada">@item.Data.ToString("yyyy MM dd HH mm ss")</td>
-            <td class="col-md-8">@item.Descricao</td>
+<div class="table-responsive">
+    <table class="table table-condensed">
+        <thead>
+        <tr>
+            <th></th>
+            <th class="text-center">Tipo de relato</th>
+            <th>Periodo</th>
+            <th>Descrição</th>
         </tr>
-    }
-    </tbody>
-</table>
+        </thead>
+        <tbody>
+        @foreach (var item in Model)
+        {
+            <tr class="@item.TipoDeRelato">
+                <td class="text-center">
+                    <a target="_blank" href="#">
+                        <i class="glyphicon glyphicon-map-marker"></i>
+                    </a>
+                </td>
+                <td class="text-center">@item.TipoDeRelato</td>
+                <td class="dataFormatada">@item.Data.ToString("yyyy MM dd HH mm ss")</td>
+                <td class="col-md-8">@item.Descricao</td>
+            </tr>
+        }
+        </tbody>
+    </table>
+</div>
 
 <script>
     $(function() {
