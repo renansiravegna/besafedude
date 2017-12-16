@@ -35,8 +35,8 @@ export class DetalharRelatoPage {
             Data: new Date(),
             Descricao: this.observacoesElement.value,
             EmailDoUsuario: 'email@teste.com.br',
-            Latitude: geoposition.coords.latitude,
-            Longitude: geoposition.coords.longitude,
+            Latitude: geoposition.coords.latitude.toString().replace(',', '.'),
+            Longitude: geoposition.coords.longitude.toString().replace(',', '.'),
             TipoDeRelato: mapaDeTiposDeRelato[this.categoria.nome]
           };
 

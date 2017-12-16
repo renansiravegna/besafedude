@@ -25729,3 +25729,11 @@ page-relatar .categoria .icone {
   display: block;
   font-size: 90px;
 }
+
+page-usuario .perfil {
+  font-size: 100px;
+}
+
+page-usuario .centered {
+  text-align: center;
+}
