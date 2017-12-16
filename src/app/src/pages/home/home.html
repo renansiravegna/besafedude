@@ -11,6 +11,11 @@
   <button ion-button secondary (click)=relatar() class="relatar">Relatar um problema</button>
   <div #map id="map" class="mapa"></div>
 
+  <ion-icon class="icone" name="compass" (click)="mudarLocal(-20.4824596, -54.601524899999994)"></ion-icon>
+  <ion-icon class="icone" name="compass" (click)="mudarLocal(-20.458544, -54.586520)"></ion-icon>
+  <ion-icon class="icone" name="compass" (click)="mudarLocal(-20.482404, -54.584582)"></ion-icon>
+  <ion-icon class="icone" name="compass" (click)="mudarLocal(-20.496799, -54.608195)"></ion-icon>
+
   <ion-item-group class="zebra">
     <ion-item-divider>Perto de você</ion-item-divider>
     <ion-item *ngFor="let relato of relatosProximos" class="zebra-item">
