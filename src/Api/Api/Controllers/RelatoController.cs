@@ -1,4 +1,5 @@
-﻿using System.Net;
+﻿using System;
+using System.Net;
 using System.Web.Mvc;
 using Api.Models.DAO;
 using Api.Models.Dominio;
@@ -9,7 +10,8 @@ namespace Api.Controllers
     {
         public ActionResult Index()
         {
-            var relatos = new Relatos().ObterTodos();
+            var dias = 10;
+            var relatos = new Relatos().ObterPorUltimos(dias);
             return View(relatos);
         }
 
@@ -17,6 +19,13 @@ namespace Api.Controllers
         public JsonResult ObterTodos()
         {
             var relatos = new Relatos().ObterTodos();
+            return Json(relatos, JsonRequestBehavior.AllowGet);
+        }
+
+        [HttpGet, AllowAnonymous]
+        public JsonResult ObterPorUltimos(int dias)
+        {
+            var relatos = new Relatos().ObterPorUltimos(dias);
             return Json(relatos, JsonRequestBehavior.AllowGet);
         }
 

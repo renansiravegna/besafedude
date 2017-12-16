@@ -21,7 +21,19 @@ namespace Api.Models.DAO
         {
             using (var db = new EntityFrameworkContext.EntityFrameworkContext())
             {
-                return db.Relatos.OrderByDescending(r => r.Data).ToList();
+                return db.Relatos.OrderByDescending(relato => relato.Data).ToList();
+            }
+        }
+
+        public IList<Relato> ObterPorUltimos(int dias)
+        {
+            using (var db = new EntityFrameworkContext.EntityFrameworkContext())
+            {
+                return db.Relatos
+                    .OrderByDescending(relato => relato.Data)
+                    .ThenByDescending(relato => relato.Id)
+                    .Take(dias)
+                    .ToList();
             }
         }
     }
