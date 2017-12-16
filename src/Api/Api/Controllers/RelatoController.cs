@@ -48,5 +48,10 @@ namespace Api.Controllers
             new Relatos().Adicionar(relato);
             return new HttpStatusCodeResult(HttpStatusCode.OK);
         }
+
+        public ActionResult Time()
+        {
+            return View();
+        }
     }
 }
