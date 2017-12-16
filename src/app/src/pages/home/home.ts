@@ -17,6 +17,7 @@ declare var google;
 export class HomePage {
   @ViewChild('map') mapElement: ElementRef;
   map: any;
+  markDaPosicaoAtual: any;
   relatosProximos: Array<any>;
   relatosDistantes: Array<any>;
 
@@ -55,7 +56,7 @@ export class HomePage {
 
     this.map = new google.maps.Map(this.mapElement.nativeElement, mapOptions);
 
-    new google.maps.Marker({
+    this.markDaPosicaoAtual = new google.maps.Marker({
       position: latLng,
       map: this.map,
     });
@@ -66,6 +67,8 @@ export class HomePage {
       .then((relatos) => {
         this.relatosProximos = relatos.proximos;
         this.relatosDistantes = relatos.distantes.slice(0, 10);
+
+        console.log(relatos);
 
         this.mapearRelatos(this.relatosProximos);
         this.mapearRelatos(this.relatosDistantes);
@@ -100,6 +103,15 @@ export class HomePage {
       duration: 7000,
       position: 'top'
     }).present();
+  }
+
+  mudarLocal(lat, lng) {
+    const latLng = new google.maps.LatLng(lat, lng);
+
+    this.markDaPosicaoAtual.setPosition(latLng);
+    this.map.setCenter(latLng);
+
+    this.loadMarkers({ coords: { latitude: lat, longitude: lng } });
   }
 
   relatar() {
