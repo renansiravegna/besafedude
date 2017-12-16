@@ -13,7 +13,7 @@ function loadMap() {
 
     new google.maps.Marker({
         position: latLng,
-        map: window.map,
+        map: window.map
     });
 
     mapearRelatos();
