@@ -3,34 +3,31 @@
 
 <script src="https://momentjs.com/downloads/moment.js"></script>
 <script src="https://momentjs.com/downloads/moment-with-locales.js"></script>
+<script src="https://code.highcharts.com/highcharts.js"></script>
+<script src="https://code.highcharts.com/modules/exporting.js"></script>
+
+<div class="row">
+    <div class="col-md-6">
+        <div id="graficoPorTipo" style="min-width: 310px; height: 400px; max-width: 600px; margin: 0 auto"></div>
+    </div>
+    <div class="col-md-6">
+        <div id="graficoPorPeriodo" style="min-width: 310px; height: 400px; max-width: 600px; margin: 0 auto"></div>
+    </div>
+</div>
 <div class="panel panel-primary">
-    <div class="panel-heading">Últimos acontecimentos</div>
-    <div class="panel-body">
-        <table class="table table-condensed">
-            <thead>
-                <tr>
-                    <th></th>
-                    <th class="text-center">Tipo de relato</th>
-                    <th>Periodo</th>
-                    <th>Descrição</th>
-                </tr>
-            </thead>
-            <tbody>
-                @foreach (var item in Model)
-                {
-                    <tr class="@item.TipoDeRelato">
-                        <td class="text-center">
-                            <a target="_blank" href="@GeradorDeLinkDeGoogleMaps.Coordenadas(item.Latitude, item.Longitude)">
-                                <i class="glyphicon glyphicon-map-marker"></i>
-                            </a>
-                        </td>
-                        <td class="text-center">@item.TipoDeRelato</td>
-                        <td class="dataFormatada">@item.Data.ToString("yyyy MM dd HH mm ss")</td>
-                        <td class="col-md-8">@item.Descricao</td>
-                    </tr>
-                }
-            </tbody>
-        </table>
+    <div class="panel-heading">
+        Últimos acontecimentos
+        <form id="formUltimosAcontecimentos" method="post" action="/Relato/Index">
+            <select id="selectDias" name="dias" style="float: right; margin-top: -27px;" class="form-control">
+                <option value="10">10 dias atrás</option>
+                <option value="30">30 dias atrás</option>
+                <option value="60">60 dias atrás</option>
+                <option value="90">90 dias atrás</option>
+            </select>
+        </form>
+    </div>
+    <div id="ultimosAcontecimentos" class="panel-body">
+        @Html.Partial("_UltimosAcontecimentos", Model)
     </div>
 </div>
 <script src="~/Content/javascript/index.js"></script>

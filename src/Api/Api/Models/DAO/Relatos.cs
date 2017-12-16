@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using Api.Models.Dominio;
+using Api.Models.Dto;
 
 namespace Api.Models.DAO
 {
@@ -27,13 +28,29 @@ namespace Api.Models.DAO
 
         public IList<Relato> ObterPorUltimos(int dias)
         {
+            var dataDoDia = DateTime.Now.AddDays(-dias);
             using (var db = new EntityFrameworkContext.EntityFrameworkContext())
             {
                 return db.Relatos
+                    .Where(relato => relato.Data >= dataDoDia)
                     .OrderByDescending(relato => relato.Data)
                     .ThenByDescending(relato => relato.Id)
-                    .Take(dias)
                     .ToList();
+            }
+        }
+
+        public IList<RelatoPeriodoMensalDto> ObterPorUltimosMensal(int mes)
+        {
+            var dataDoMes = DateTime.Now.AddMonths(-mes);
+            using (var db = new EntityFrameworkContext.EntityFrameworkContext())
+            {
+                return (from relato in db.Relatos
+                    where relato.Data >= dataDoMes
+                    select new RelatoPeriodoMensalDto
+                    {
+                        TipoDeRelato = relato.TipoDeRelato,
+                        Mes = relato.Data.Month
+                    }).OrderByDescending(relato => relato.Mes).ToList();
             }
         }
     }

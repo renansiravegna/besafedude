@@ -1,0 +1,47 @@
+﻿@using Api.Models.Utilitarios
+@model IList<Api.Models.Dominio.Relato>
+@{
+    Layout = null;
+}
+<table class="table table-condensed">
+    <thead>
+    <tr>
+        <th></th>
+        <th class="text-center">Tipo de relato</th>
+        <th>Periodo</th>
+        <th>Descrição</th>
+    </tr>
+    </thead>
+    <tbody>
+    @foreach (var item in Model)
+    {
+        <tr class="@item.TipoDeRelato">
+            <td class="text-center">
+                <a target="_blank" href="@GeradorDeLinkDeGoogleMaps.Coordenadas(item.Latitude, item.Longitude)">
+                    <i class="glyphicon glyphicon-map-marker"></i>
+                </a>
+            </td>
+            <td class="text-center">@item.TipoDeRelato</td>
+            <td class="dataFormatada">@item.Data.ToString("yyyy MM dd HH mm ss")</td>
+            <td class="col-md-8">@item.Descricao</td>
+        </tr>
+    }
+    </tbody>
+</table>
+
+<script>
+    $(function() {
+        FormatarData();
+    });
+
+    function FormatarData() {
+        moment.locale('pt-br');
+        var $data = $('.dataFormatada');
+        $data.each(i => {
+            var periodo = $data[i].innerText.split(' ');
+            var data = new Date(periodo[0], periodo[1] - 1, periodo[2], periodo[3], periodo[4], periodo[5]);
+            var dataFormatada = moment(data).fromNow();
+            $data[i].innerText = dataFormatada;
+        });
+    }
+</script>
