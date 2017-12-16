@@ -1,0 +1,29 @@
+<ion-header>
+  <ion-navbar>
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>Detalhar relato</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <ion-list inset>
+    <ion-item>
+      <ion-card class="categoria">
+        <ion-card-content>
+          <ion-icon class="icone" name="{{ categoria.icone }}"></ion-icon>
+          <span>{{ categoria.nome }}</span>
+        </ion-card-content>
+      </ion-card>
+    </ion-item>
+
+    <ion-item>
+      <ion-label floating>Observações</ion-label>
+      <ion-textarea #observacoes id="observacoes"></ion-textarea>
+    </ion-item>
+  </ion-list>
+
+  <button ion-button clear (click)=cancelar()>Cancelar</button>
+  <button ion-button secondary (click)=relatar()>Enviar</button>
+</ion-content>

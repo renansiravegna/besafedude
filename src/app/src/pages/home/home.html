@@ -1,0 +1,47 @@
+<ion-header>
+  <ion-navbar>
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>Relatos perto de você</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <button ion-button secondary (click)=relatar() class="relatar">Relatar um problema</button>
+  <div #map id="map" class="mapa"></div>
+
+  <ion-item-group>
+    <ion-item-divider>Perto de você</ion-item-divider>
+    <ion-item *ngFor="let relato of relatosProximos">
+      <ion-avatar item-start class="avatar">
+        <ion-icon class="icone" name="{{relato.Icone}}"></ion-icon>
+      </ion-avatar>
+
+      <div class="informacoes-do-relato">
+        <h2>{{relato.Descricao}}</h2>
+        <p>{{relato.Distancia}} km</p>
+      </div>
+
+      <div class="confirmar-relato">
+        <ion-icon
+          class="icone"
+          [class.relatoConfirmado]="relato.Confirmado"
+          name="thumbs-up"
+          (click)=confirmarRelato(relato)></ion-icon>
+      </div>
+    </ion-item>
+  </ion-item-group>
+
+  <ion-item-group>
+    <ion-item-divider>Mais distantes</ion-item-divider>
+    <ion-item *ngFor="let relato of relatosDistantes">
+      <ion-avatar item-start class="avatar">
+        <ion-icon class="icone" name="{{relato.Icone}}"></ion-icon>
+      </ion-avatar>
+
+      <h2>{{relato.Descricao}}</h2>
+      <p>{{relato.Distancia}} km</p>
+    </ion-item>
+  </ion-item-group>
+</ion-content>
