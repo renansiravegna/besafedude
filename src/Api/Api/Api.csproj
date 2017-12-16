@@ -137,6 +137,7 @@
     <Compile Include="Models\Dominio\Relato.cs" />
     <Compile Include="Models\EntityFrameworkContext\EntityFrameworkContext.cs" />
     <Compile Include="Models\Enum\TipoDeRelato.cs" />
+    <Compile Include="Models\Utilitarios\FormataData.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

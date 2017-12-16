@@ -21,7 +21,7 @@ namespace Api.Models.DAO
         {
             using (var db = new EntityFrameworkContext.EntityFrameworkContext())
             {
-                return db.Relatos.ToList();
+                return db.Relatos.OrderByDescending(r => r.Data).ToList();
             }
         }
     }
