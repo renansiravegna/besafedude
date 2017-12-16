@@ -1,5 +1,0 @@
-D:\Projetos\Skeleton\Skeleton.Dominio.Base\bin\Debug\Skeleton.Dominio.Base.dll
-D:\Projetos\Skeleton\Skeleton.Dominio.Base\bin\Debug\Skeleton.Dominio.Base.pdb
-D:\Projetos\Skeleton\Skeleton.Dominio.Base\obj\Debug\Skeleton.Dominio.Base.dll
-D:\Projetos\Skeleton\Skeleton.Dominio.Base\obj\Debug\Skeleton.Dominio.Base.pdb
-D:\Projetos\Skeleton\Skeleton.Dominio.Base\obj\Debug\Skeleton.Dominio.Base.csprojResolveAssemblyReference.cache

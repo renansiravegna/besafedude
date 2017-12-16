@@ -1,4 +1,0 @@
-D:\Projetos\Skeleton\Skeleton.Infra.CrossCutting.Base\bin\Debug\Skeleton.Infra.CrossCutting.Base.dll
-D:\Projetos\Skeleton\Skeleton.Infra.CrossCutting.Base\bin\Debug\Skeleton.Infra.CrossCutting.Base.pdb
-D:\Projetos\Skeleton\Skeleton.Infra.CrossCutting.Base\obj\Debug\Skeleton.Infra.CrossCutting.Base.dll
-D:\Projetos\Skeleton\Skeleton.Infra.CrossCutting.Base\obj\Debug\Skeleton.Infra.CrossCutting.Base.pdb
