@@ -321,7 +321,7 @@ var TabsPage = (function () {
         this.tab2Root = __WEBPACK_IMPORTED_MODULE_2__relatar_relatar__["a" /* RelatarPage */];
     }
     TabsPage = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({template:/*ion-inline-start:"/home/renan/ProjetosGitHub/besafedude/src/app/src/pages/tabs/tabs.html"*/'<ion-tabs>\n  <ion-tab [root]="tab1Root" tabTitle="Home" tabIcon="home"></ion-tab>\n  <ion-tab [root]="tab2Root" tabTitle="Relatar" tabIcon="information-circle"></ion-tab>\n</ion-tabs>\n'/*ion-inline-end:"/home/renan/ProjetosGitHub/besafedude/src/app/src/pages/tabs/tabs.html"*/
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({template:/*ion-inline-start:"/home/renan/ProjetosGitHub/besafedude/src/app/src/pages/tabs/tabs.html"*/'<ion-tabs>\n  <ion-tab [root]="tab1Root" tabTitle="Relatos" tabIcon="list-box"></ion-tab>\n  <ion-tab [root]="tab2Root" tabTitle="Relatar" tabIcon="add-circle"></ion-tab>\n</ion-tabs>\n'/*ion-inline-end:"/home/renan/ProjetosGitHub/besafedude/src/app/src/pages/tabs/tabs.html"*/
         }),
         __metadata("design:paramtypes", [])
     ], TabsPage);
@@ -541,9 +541,10 @@ var RelatosService = (function () {
     };
     RelatosService = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["A" /* Injectable */])(),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1__angular_http__["a" /* Http */]])
+        __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1__angular_http__["a" /* Http */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1__angular_http__["a" /* Http */]) === "function" && _a || Object])
     ], RelatosService);
     return RelatosService;
+    var _a;
 }());
 
 function detalharRelatos(coordenadasAtuais, relatos) {
